@@ -1,0 +1,28 @@
+.green-underline{
+    position: relative;
+    display: inline-block;
+}
+
+.green-underline::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: -0.5px;
+    height: 5px;
+    background-color: green;
+    border-radius: 1px;
+}
+.div-center-height{
+    height: calc(100vh - 120px);
+}
+
+.home-bg{
+  background: url('../assets/images/library1.jpg') no-repeat center center;
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.btn-wooden{
+    background-color: rgb(114, 79, 48) !important;
+}

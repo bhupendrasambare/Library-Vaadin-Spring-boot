@@ -1,4 +1,4 @@
-package com.example.application;
+package com.library;
 
 import com.vaadin.flow.component.page.AppShellConfigurator;
 import com.vaadin.flow.theme.Theme;
@@ -13,7 +13,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  *
  */
 @SpringBootApplication
-@Theme(value = "todo")
+@Theme(value = "Library")
 public class Application implements AppShellConfigurator {
 
     public static void main(String[] args) {
