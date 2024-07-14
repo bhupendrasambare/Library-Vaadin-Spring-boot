@@ -2,6 +2,7 @@ import Container from 'react-bootstrap/Container';
 import Navbar from 'react-bootstrap/Navbar';
 import { useNavigate } from 'react-router-dom';
 import "../style/home.css"
+import React from "react";
 
 function NavbarComponent() {
   

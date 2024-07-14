@@ -20,7 +20,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Entity
 @Table(name = "books")
-public class Book {
+public class Books {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,14 +28,16 @@ public class Book {
 
     private String name;
     private String author;
-    private String image;
 
     @Column(name = "category_name")
-    private String category_name;
+    private String categoryName;
     private Integer year;
 
     @Column(name = "issue_date")
     private LocalDateTime issueDate;
+
+    @Column(name = "created_date")
+    private LocalDateTime createdDate;
 
     @ManyToOne
     @JoinColumn(name = "student_id")

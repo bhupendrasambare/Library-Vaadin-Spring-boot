@@ -32,6 +32,6 @@ public class Penalty {
 
     @ManyToOne
     @JoinColumn(name = "book_id")
-    private Book book;
+    private Books books;
 
 }
