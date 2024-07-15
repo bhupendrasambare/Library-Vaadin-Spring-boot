@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56fb7696-2ccb-413e-999e-40d52e4e0f3b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/dto/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/dto/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/dto/Status.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/repository/BookRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/services/BookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.mv.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.trace.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/model/Books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/model/Penalty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/model/Penalty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="56fb7696-2ccb-413e-999e-40d52e4e0f3b" name="Changes" comment="404 page created">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/Dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/model/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/model/Books.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +73,19 @@
       <option name="presentableId" value="Default" />
       <updated>1720905277365</updated>
     </task>
+    <task id="LOCAL-00001" summary="404 page created">
+      <option name="closed" value="true" />
+      <created>1720981469118</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720981469119</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="404 page created" />
+    <option name="LAST_COMMIT_MESSAGE" value="404 page created" />
   </component>
 </project>

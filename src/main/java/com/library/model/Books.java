@@ -6,6 +6,7 @@
  **/
 package com.library.model;
 
+import com.vaadin.hilla.Nullable;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -34,6 +35,7 @@ public class Books {
     private Integer year;
 
     @Column(name = "issue_date")
+    @Nullable
     private LocalDateTime issueDate;
 
     @Column(name = "created_date")
@@ -41,6 +43,7 @@ public class Books {
 
     @ManyToOne
     @JoinColumn(name = "student_id")
+    @Nullable
     private Student student;
 
 }
