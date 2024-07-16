@@ -8,6 +8,7 @@ package com.library.dto;
 
 
 public class Constants {
+    public static final String SUCCESS = "Success";
     public static String SUCCESS_CODE="0";
     public static String INVALID_REQUEST_CODE="20001";
     public static final String INTERNAL_SERVER_ERROR_CODE = "20002";

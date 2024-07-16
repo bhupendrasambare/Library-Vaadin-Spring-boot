@@ -24,4 +24,7 @@ public interface BookRepository extends JpaRepository<Books,Integer> {
 
     @Query("Select u from Books u where u.author like %?1%")
     List<Books> findByAuthor(String author);
+
+    @Query("Select u.categoryName from Books u group by u.categoryName")
+    List<String> findAllCategories();
 }

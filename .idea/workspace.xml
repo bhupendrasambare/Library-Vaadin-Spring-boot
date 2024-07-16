@@ -6,8 +6,13 @@
   <component name="ChangeListManager">
     <list default="true" id="56fb7696-2ccb-413e-999e-40d52e4e0f3b" name="Changes" comment="404 page created">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/Dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/model/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/model/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/style/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/style/dashboard.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/dto/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/dto/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/dto/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/dto/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/repository/BookRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/services/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

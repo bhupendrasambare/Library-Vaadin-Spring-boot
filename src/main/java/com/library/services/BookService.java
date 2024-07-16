@@ -25,8 +25,8 @@ public class BookService {
     @Autowired
     private BookRepository bookRepository;
 
-    public Response saveBook(Books request){
-        Response response = new Response();
+    public Response<Books> saveBook(Books request){
+        Response<Books> response = new Response<Books>();
         Books books = new Books();
         books.setCreatedDate(LocalDateTime.now());
         if(request.getId()!=null && request.getId()!=0){
@@ -37,23 +37,24 @@ public class BookService {
             if(request.getName()!=null && !request.getName().isEmpty()){
                 books.setName(request.getName());
             }else{invalid=true;}
-            if(request.getAuthor()!=null && !request.getAuthor().isEmpty()){
+            if(!invalid && request.getAuthor()!=null && !request.getAuthor().isEmpty()){
                 books.setAuthor(request.getAuthor());
             }else{invalid=true;}
-            if(request.getCategoryName()!=null && !request.getCategoryName().isEmpty()){
+            if(!invalid && request.getCategoryName()!=null && !request.getCategoryName().isEmpty()){
                 books.setCategoryName(request.getCategoryName());
             }else{invalid=true;}
-            if(request.getYear()!=null && request.getYear()!=0){
+            if(!invalid && request.getYear()!=null && request.getYear()!=0){
                 books.setYear(request.getYear());
             }else{invalid=true;}
             if(invalid && request.getId()==null){
-                response = new Response(Constants.INVALID_REQUEST_CODE,Constants.INVALID_REQUEST);
+                response = new Response(null,Constants.INVALID_REQUEST_CODE,Constants.INVALID_REQUEST,false);
             }else {
                 Books data = bookRepository.save(books);
                 response.setData(data);
+                response.setSuccess(true);
             }
         }else{
-            response = new Response(Constants.BOOK_NOT_FOUND_CODE,Constants.BOOK_NOT_FOUND);
+            response = new Response(null,Constants.BOOK_NOT_FOUND_CODE,Constants.BOOK_NOT_FOUND,false);
         }
         return response;
     }
@@ -78,4 +79,8 @@ public class BookService {
         return bookRepository.findByAuthor(author);
     }
 
+
+    public List<String> findAllCategories(){
+        return bookRepository.findAllCategories();
+    }
 }
