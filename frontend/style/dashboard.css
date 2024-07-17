@@ -9,3 +9,7 @@
    white-space: nowrap;
    width: 5%;
 }
+.table-container {
+    height: 300px; /* Set the desired height */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }

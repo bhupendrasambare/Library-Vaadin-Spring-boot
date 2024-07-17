@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56fb7696-2ccb-413e-999e-40d52e4e0f3b" name="Changes" comment="404 page created">
+    <list default="true" id="56fb7696-2ccb-413e-999e-40d52e4e0f3b" name="Changes" comment="Add book UI">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/repository/StudentsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/library/services/StudentsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/components/Navbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/pages/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/pages/Dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/pages/TodoView.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/route.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/route.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/style/dashboard.css" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/style/dashboard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/dto/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/dto/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/dto/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/dto/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/bundles/prod.bundle" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/bundles/prod.bundle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/model/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/library/repository/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/repository/BookRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/library/services/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/library/services/BookService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +27,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -86,11 +90,28 @@
       <option name="project" value="LOCAL" />
       <updated>1720981469119</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add book UI">
+      <option name="closed" value="true" />
+      <created>1721150304256</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1721150304256</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Add book UI">
+      <option name="closed" value="true" />
+      <created>1721151597417</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1721151597417</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="404 page created" />
-    <option name="LAST_COMMIT_MESSAGE" value="404 page created" />
+    <MESSAGE value="Add book UI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add book UI" />
   </component>
 </project>
