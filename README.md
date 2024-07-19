@@ -13,7 +13,7 @@ This project is a Library Management System built using Vaadin and Spring Boot. 
 
 ## Installation
 
-To get a local copy up and running, follow these steps:
+To get a local copy up and running, follow these steps (Spring boot + Vaadin):
 
 ### Prerequisites
 
