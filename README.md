@@ -19,7 +19,6 @@ To get a local copy up and running, follow these steps (Spring boot + Vaadin):
 
 - Java 17
 - Maven 3.6+
-- Node.js and npm (for the frontend)
 
 ### Clone the Repository
 
