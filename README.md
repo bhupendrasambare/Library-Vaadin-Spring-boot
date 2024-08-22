@@ -17,7 +17,7 @@ To get a local copy up and running, follow these steps (Spring boot + Vaadin):
 
 ### Prerequisites
 
-- Java 17
+- Java 21
 - Maven 3.6+
 
 ### Clone the Repository
